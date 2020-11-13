@@ -9,7 +9,7 @@ module.exports = {
 
     // Paths
     assetsSubDirectory: 'static',
-    assetsPublicPath: './',//注：加.否则打包后路径错误
+    assetsPublicPath: '/',//注：这里是npm run dev后的地址不需要加.
     proxyTable: {},
 
     // Various Dev Server settings
