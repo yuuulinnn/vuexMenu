@@ -35,6 +35,12 @@ const router = new Router({
           name: 'menu1-2',
           component: () =>
             import('@/components/menu1-2')
+        },
+        {
+          path: '/print',
+          name: 'print',
+          component: () =>
+            import('@/components/print')
         }]
     }
   ]
